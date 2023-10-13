@@ -1,0 +1,52 @@
+#heading{
+   font-size: 50px;
+   color: #8EA7E9;
+}
+body{
+    background-color: #DDE6ED;
+}
+#submit-btn{
+    width: 20%;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+h1 , h2{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #8EA7E9;
+    font-size: xx-large;
+}
+.top > *{
+    font-family: 'Lobster', cursive;
+    color: #8EA7E9;
+    font-size: large;
+}
+.coin{
+  width: 50%;
+  height: 50%;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    
+}
+.top{
+    width: 50%;
+    display: inline-block;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.container > div{
+    background-color: whiteF;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+#user-input{
+    color: #8EA7E9;
+}
