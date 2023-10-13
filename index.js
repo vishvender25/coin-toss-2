@@ -3,6 +3,7 @@ var computer_choice = "";
 var user_choice = "";
 document.getElementById("submit-btn").addEventListener("click", function(event){
     user_choice = document.getElementById("user-input").value;
+    user_choice = user_choice.toLowerCase();
     if(user_choice == "heads"){
         document.querySelectorAll(".coin")[0].setAttribute("src", "./images/head.png");
     
